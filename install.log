@@ -1,0 +1,52 @@
+Hit:1 https://download.docker.com/linux/debian buster InRelease
+Hit:2 https://deb.parrot.sh/parrot rolling InRelease
+Hit:3 https://deb.parrot.sh/parrot rolling-security InRelease
+Reading package lists...
+Building dependency tree...
+Reading state information...
+All packages are up to date.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3 is already the newest version (3.9.1-1).
+python3 set to manually installed.
+python3-pip is already the newest version (20.1.1-2).
+python3-pip set to manually installed.
+The following packages were automatically installed and are no longer required:
+  gnome-session-canberra libarmadillo9 libboost-locale1.71.0 libcfitsio8
+  libgdal27 libgfapi0 libgfrpc0 libgfxdr0 libgit2-28 libglusterfs0 libisl22
+  liborcus-0.15-0 liborcus-parser-0.15-0 libplymouth4 libpython3.8-dev
+  libusrsctp1 python3-gridfs python3.8-dev
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+php is already the newest version (2:7.4+76).
+The following packages were automatically installed and are no longer required:
+  gnome-session-canberra libarmadillo9 libboost-locale1.71.0 libcfitsio8
+  libgdal27 libgfapi0 libgfrpc0 libgfxdr0 libgit2-28 libglusterfs0 libisl22
+  liborcus-0.15-0 liborcus-parser-0.15-0 libplymouth4 libpython3.8-dev
+  libusrsctp1 python3-gridfs python3.8-dev
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Package ssh is not available, but is referred to by another package.
+This may mean that the package is missing, has been obsoleted, or
+is only available from another source
+However the following packages replace it:
+  openssh-client openssh-server
+
+E: Package 'ssh' has no installation candidate
+Requirement already satisfied: requests in /usr/lib/python3/dist-packages (2.23.0)
